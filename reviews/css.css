@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(216, 214, 207);
+    /* background-image: url(back2.jpg); */
+}
+.title{
+    margin-top: 7rem;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+}
+.bar   {
+    border: 3px solid rgb(45, 76, 253);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 2rem;
+}
+.review-box{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    border: 2px solid black;
+    box-shadow: 4px 4px rgb(117, 117, 117);
+    padding: 20px 18px;
+    background-color: rgb(238, 237, 255);
+    box-sizing: content-box;
+}
+img{
+    width: 170px;
+    height: 210px;
+    border-radius: 100%;
+    box-shadow: 0.4rem 0.4rem rgb(85, 130, 255);
+}
+.name  {
+    margin-top: 8px;
+    font-size: 2rem;
+}
+.edu{
+    margin-top: 2px;
+    font-size: 0.9rem;
+    color: rgb(43, 105, 240);
+    /* color: rgb(61, 61, 61); */
+}
+.their-review{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    /* background-color: rgb(180, 216, 247); */
+    border-radius: 1rem;
+    padding: 3px;
+}
+.buttons{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 8rem; */
+}
+button{
+    /* position: fixed; */
+    border: none;
+    padding: 1rem;
+    background: none;
+    border-bottom: 2px solid pink;
+    font-size: 1rem;
+    color: rgb(177, 99, 99);
+    box-sizing: border-box;
+}
+button:hover{
+    /* color: rgba(223, 163, 122, 0.932); */
+    text-shadow: 0px 0px 2px  rgb(255, 34, 34);
+}
